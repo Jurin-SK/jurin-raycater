@@ -1,0 +1,36 @@
+import math
+
+fps = 60
+width = 900
+height = 600
+
+WHITE = (255,255,255)
+YELLOW = (255,255,0)
+TIRQUIS = (0,255,255)
+RED = (255,20,20)
+GRAY = (50,50,50)
+
+TILE = 50
+MAP_SCALE = 5
+MAP_TILE = TILE // MAP_SCALE
+MAP_POS = (0, height - height // MAP_SCALE)
+
+FOV = math.pi / 3
+HALF_FOV = FOV / 2
+NUM_RAYS = 300
+MAX_DEPTH = 800
+DELTA_ANGLE = FOV / NUM_RAYS
+DIST = NUM_RAYS / (2 * math.tan(HALF_FOV))
+POJCOEFF = 3 * DIST * TILE
+SCALE = width // NUM_RAYS
+WALL_HEIGHT = 5
+
+playerX = 70
+playerY = 100
+playerSize = 12
+playerAngle = 0
+playerSpeed = 3
+
+TEXTURE_WIDTH = 1200
+TEXTURE_HEIGHT = 1200
+TEXTURE_SCALE = TEXTURE_WIDTH // TILE
