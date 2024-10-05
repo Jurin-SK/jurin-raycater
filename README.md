@@ -1,22 +1,20 @@
 # Jurin Raycaster
 ## 📖 Description
-Je to raycaster od Jurina vyrobený v Pythone s použitím grafickej knižnice Pygame.
+It's a cross platform raycaster by Jurin made in python using the pygame graphics library
 ## 💽 How to download
 * Copy repository to your computer by clicking *Code* and *Download Zip*
-![Tutorial](/readmeconf/tutorial.png/ "Tutorial")
+![Tutorial](/readmeconf/tutorial.png/)
 * SmartScreen or Chrome might have flagged it as unsafe because I don't have a certificate.
-* **WARNING: This link can change over time**
 ## 💾 Instalation
-* If you download a file open it
-* Click next
-* Choose a file destination where the Jurin Paint be stored
-* Click next
-* Installation begin
-* Keep a good eye on the Taskbar. Maybe they'll post a UAC alert there.
-* When installation finish press close and enjoy 😊
+* First, install python from *https://www.python.org/downloads/*
+* Or you can download it via shell
+* Then you need install graphic library pygame
+```shell
+pip install pygame
+```
+* Go to *jurinRaycaster* folder
+* Open *jurinRaycaster.py* and enjoy 😊
 ## ⛔ Uninstalling
-* Open control panel
-* Click Uninstall a program
-* Right click on "Jurin Paint Install" and press Uninstall
+* Just delete it 🙂
 ## ⚠️ Warning
 If you find error report it to me
