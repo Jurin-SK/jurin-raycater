@@ -1,7 +1,6 @@
 # Jurin Raycaster
 ## 📖 Description
 It's a cross platform raycaster by Jurin made in python using the pygame graphics library
-Here is a image
 ![Preview](/readmeconf/preview.png/)
 ## 💽 How to download
 * Copy repository to your computer by clicking **Code** and **Download Zip**
